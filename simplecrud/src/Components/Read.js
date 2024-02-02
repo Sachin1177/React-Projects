@@ -24,6 +24,7 @@ const Read = () => {
         localStorage.setItem("id", id);
         localStorage.setItem("name", name);
         localStorage.setItem("email", email);
+        // console.log(id,name,email)
 
     }
     useEffect(() => {
